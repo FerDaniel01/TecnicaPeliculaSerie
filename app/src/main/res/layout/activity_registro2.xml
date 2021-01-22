@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="registro Contenido"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titulo"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:id="@+id/campoTitulo"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/a_o"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:id="@+id/campoAnio" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clasificación"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:id="@+id/campoRated" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="onClick"
+        android:text="Registrar" />
+
+</LinearLayout>

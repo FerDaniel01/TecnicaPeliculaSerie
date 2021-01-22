@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PeliculasSeries</string>
+    <string name="ver_series">Ver Series</string>
+    <string name="ver_peliculas">Ver Peliculas</string>
+    <string name="titulo">titulo</string>
+    <string name="a_o">año</string>
+    <string name="ver_serie">VER SERIE</string>
+    <string name="ver_pel_cula">VER PELÍCULA</string>
+</resources>
